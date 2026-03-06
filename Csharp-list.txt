@@ -16,7 +16,6 @@ Built-in Types,uint
 Built-in Types,ulong
 Built-in Types,ushort
 Built-in Types,void
-
 Control Flow,break
 Control Flow,case
 Control Flow,catch
@@ -35,7 +34,6 @@ Control Flow,throw
 Control Flow,try
 Control Flow,while
 Control Flow,yield
-
 Modifiers & Definitions,abstract
 Modifiers & Definitions,async
 Modifiers & Definitions,await
@@ -68,7 +66,6 @@ Modifiers & Definitions,this
 Modifiers & Definitions,unsafe
 Modifiers & Definitions,virtual
 Modifiers & Definitions,volatile
-
 Logic & Operators,as
 Logic & Operators,checked
 Logic & Operators,is
@@ -82,7 +79,6 @@ Logic & Operators,stackalloc
 Logic & Operators,typeof
 Logic & Operators,unchecked
 Logic & Operators,using
-
 LINQ & Contextual,add
 LINQ & Contextual,alias
 LINQ & Contextual,ascending
@@ -110,11 +106,9 @@ LINQ & Contextual,var
 LINQ & Contextual,when
 LINQ & Contextual,where
 LINQ & Contextual,with
-
 Literals,false
 Literals,null
 Literals,true
-
 Symbols,+
 Symbols,-
 Symbols,*
@@ -155,7 +149,7 @@ Symbols,<<=
 Symbols,>>=
 Symbols,??=
 Symbols,..
-
+Category,Word
 Preprocessor,#if
 Preprocessor,#else
 Preprocessor,#elif
@@ -169,7 +163,7 @@ Preprocessor,#region
 Preprocessor,#endregion
 Preprocessor,#pragma
 Preprocessor,#nullable
-
+Category,Word
 DocComment,summary
 DocComment,remarks
 DocComment,param
@@ -185,7 +179,7 @@ DocComment,item
 DocComment,description
 DocComment,typeparam
 DocComment,value
-
+Category,Word
 Common Class,Console
 Common Class,Math
 Common Class,DateTime
@@ -195,7 +189,6 @@ Common Class,String
 Common Class,StringBuilder
 Common Class,Environment
 Common Class,Convert
-
 Collection,List
 Collection,Dictionary
 Collection,HashSet
@@ -204,7 +197,6 @@ Collection,Stack
 Collection,IEnumerable
 Collection,ICollection
 Collection,IList
-
 IO/System,File
 IO/System,Directory
 IO/System,Path
@@ -213,7 +205,7 @@ IO/System,Task
 IO/System,Thread
 IO/System,Exception
 IO/System,Attribute
-
+Category,Word
 Attribute,Serializable
 Attribute,Obsolete
 Attribute,Conditional
@@ -229,7 +221,17 @@ Attribute,StringLength
 Attribute,Range
 Attribute,Key
 Attribute,Display
+Category,Word
+Attribute,Serializable
+Attribute,Obsolete
+Attribute,Conditional
+Attribute,AttributeUsage
+Attribute,Flags
+Attribute,DllImport
+Attribute,MarshalAs
+Attribute,StructLayout
 Attribute,FieldOffset
+Attribute,NonSerialized
 Attribute,ThreadStatic
 Attribute,ContextStatic
 Attribute,CLSCompliant
@@ -250,7 +252,7 @@ Attribute,Experimental
 Attribute,AsyncMethodBuilder
 Attribute,EnumeratorCancellation
 Attribute,CollectionBuilder
-
+Category,Word
 Snippet,for
 Snippet,foreach
 Snippet,while
@@ -275,3 +277,29 @@ Snippet,cw
 Snippet,sim
 Snippet,svm
 Snippet,indexer
+System
+System.Collections
+System.Collections.Generic
+System.Linq
+System.Threading
+System.Threading.Tasks
+System.IO
+System.Text
+System.Text.RegularExpressions
+System.Globalization
+System.Diagnostics
+System.ComponentModel
+System.ComponentModel.DataAnnotations
+System.Runtime
+System.Runtime.InteropServices
+System.Runtime.CompilerServices
+System.Net
+System.Net.Http
+System.Net.Sockets
+System.Reflection
+System.Security.Cryptography
+System.Buffers
+System.Numerics
+System.Xml
+System.Xml.Linq
+System.Xml.Serialization
