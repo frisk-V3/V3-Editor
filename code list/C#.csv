@@ -1,290 +1,279 @@
-bool,blue
-byte,blue
-char,blue
-decimal,blue
-double,blue
-float,blue
-int,blue
-long,blue
-nint,blue
-nuint,blue
-object,blue
-sbyte,blue
-short,blue
-string,blue
-uint,blue
-ulong,blue
-ushort,blue
-void,blue
-break,red
-case,red
-catch,red
-continue,red
-default,red
-do,red
-else,red
-finally,red
-for,red
-foreach,red
-goto,red
-if,red
-return,red
-switch,red
-throw,red
-try,red
-while,red
-yield,red
-abstract,green
-async,green
-await,green
-base,green
-class,green
-const,green
-delegate,green
-enum,green
-event,green
-explicit,green
-extern,green
-file,green
-fixed,green
-implicit,green
-interface,green
-internal,green
-new,green
-operator,green
-override,green
-partial,green
-private,green
-protected,green
-public,green
-readonly,green
-record,green
-sealed,green
-static,green
-struct,green
-this,green
-unsafe,green
-virtual,purple
-volatile,purple
-as,purple
-checked,purple
-is,purple
-lock,purple
-nameof,purple
-out,purple
-params,purple
-ref,purple
-sizeof,purple
-stackalloc,purple
-typeof,teal
-unchecked,teal
-using,teal
-add,teal
-alias,teal
-ascending,teal
-by,teal
-descending,teal
-dynamic,teal
-equals,teal
-from,teal
-get,teal
-global,teal
-group,teal
-init,teal
-into,teal
-join,teal
-let,teal
-managed,teal
-on,teal
-orderby,teal
-remove,teal
-select,teal
-set,teal
-unmanaged,orange
-value,orange
-var,orange
-when,gray
-where,gray
-with,gray
-FALSE,gray
-null,gray
-TRUE,gray
-#ERROR!,gray
--,gray
-*,gray
-/,gray
-%,gray
-&,gray
-|,gray
-^,gray
-!,gray
-~,gray
-#ERROR!,gray
-<,gray
->,gray
-?,gray
-??,gray
-::,gray
-?.,gray
-#ERROR!,gray
-#ERROR!,gray
---,gray
-&&,gray
-||,gray
-<<,gray
->>,gray
-#ERROR!,gray
-!=,brown
-<=,brown
->=,brown
-#ERROR!,brown
--=,brown
-*=,brown
-/=,brown
-%=,brown
-&=,brown
-|=,brown
-^=,brown
-<<=,brown
->>=,brown
-??=,yellow
-..,yellow
-#if,yellow
-#else,yellow
-#elif,yellow
-#endif,yellow
-#define,yellow
-#undef,yellow
-#warning,yellow
-#error,yellow
-#line,yellow
-#region,yellow
-#endregion,yellow
-#pragma,yellow
-#nullable,yellow
-summary,cyan
-remarks,cyan
-param,cyan
-returns,cyan
-exception,cyan
-example,cyan
-code,cyan
-see,cyan
-seealso,pink
-inheritdoc,pink
-list,pink
-item,pink
-description,pink
-typeparam,pink
-value,pink
-Console,indigo
-Math,indigo
-DateTime,indigo
-TimeSpan,indigo
-Guid,indigo
-String,indigo
-StringBuilder,indigo
-Environment,indigo
-Convert,gold
-List,gold
-Dictionary,gold
-HashSet,gold
-Queue,gold
-Stack,gold
-IEnumerable,gold
-ICollection,gold
-IList,gold
-File,gold
-Directory,gold
-Path,gold
-Stream,gold
-Task,gold
-Thread,gold
-Exception,gold
-Attribute,gold
-Serializable,gold
-Obsolete,gold
-Conditional,gold
-AttributeUsage,gold
-Flags,gold
-NonSerialized,gold
-DllImport,gold
-MarshalAs,gold
-StructLayout,gold
-JsonPropertyName,gold
-Required,gold
-StringLength,silver
-Range,silver
-Key,silver
-Display,silver
-FieldOffset,silver
-ThreadStatic,silver
-ContextStatic,silver
-CLSCompliant,silver
-CallerMemberName,silver
-CallerFilePath,silver
-CallerLineNumber,silver
-CallerArgumentExpression,silver
-MethodImpl,silver
-InternalsVisibleTo,silver
-RequiredMember,silver
-SetsRequiredMembers,silver
-InterpolatedStringHandler,silver
-ModuleInitializer,silver
-SkipLocalsInit,silver
-UnscopedRef,black
-OverloadResolutionPriority,black
-Experimental,black
-AsyncMethodBuilder,black
-EnumeratorCancellation,black
-CollectionBuilder,black
-for,black
-foreach,black
-while,black
-do,black
-if,black
-else,black
-switch,black
-try,black
-catch,black
-finally,black
-using,black
-lock,black
-class,black
-struct,black
-interface,black
-enum,black
-prop,black
-propfull,black
-propg,
-ctor,
-cw,
-sim,
-svm,
-indexer,
-System,
-System.Collections,
-System.Collections.Generic,
-System.Linq,
-System.Threading,
-System.Threading.Tasks,
-System.IO,
-System.Text,
-System.Text.RegularExpressions,
-System.Globalization,
-System.Diagnostics,
-System.ComponentModel,
-System.ComponentModel.DataAnnotations,
-System.Runtime,
-System.Runtime.InteropServices,
-System.Runtime.CompilerServices,
-System.Net,
-System.Net.Http,
-System.Net.Sockets,
-System.Reflection,
-System.Security.Cryptography,
-System.Buffers,
-System.Numerics,
-System.Xml,
-System.Xml.Linq,
-System.Xml.Serialization,
+"Built-in Types,bool",blue
+"Built-in Types,byte",blue
+"Built-in Types,char",blue
+"Built-in Types,decimal",blue
+"Built-in Types,double",blue
+"Built-in Types,float",blue
+"Built-in Types,int",blue
+"Built-in Types,long",blue
+"Built-in Types,nint",blue
+"Built-in Types,nuint",blue
+"Built-in Types,object",blue
+"Built-in Types,sbyte",blue
+"Built-in Types,short",blue
+"Built-in Types,string",blue
+"Built-in Types,uint",blue
+"Built-in Types,ulong",blue
+"Built-in Types,ushort",blue
+"Built-in Types,void",blue
+"Control Flow,break",purple
+"Control Flow,case",purple
+"Control Flow,catch",purple
+"Control Flow,continue",purple
+"Control Flow,default",purple
+"Control Flow,do",purple
+"Control Flow,else",purple
+"Control Flow,finally",purple
+"Control Flow,for",purple
+"Control Flow,foreach",purple
+"Control Flow,goto",purple
+"Control Flow,if",purple
+"Control Flow,return",purple
+"Control Flow,switch",purple
+"Control Flow,throw",purple
+"Control Flow,try",purple
+"Control Flow,while",purple
+"Control Flow,yield",purple
+"Modifiers & Definitions,abstract",blue
+"Modifiers & Definitions,async",blue
+"Modifiers & Definitions,await",blue
+"Modifiers & Definitions,base",blue
+"Modifiers & Definitions,class",blue
+"Modifiers & Definitions,const",blue
+"Modifiers & Definitions,delegate",blue
+"Modifiers & Definitions,enum",blue
+"Modifiers & Definitions,event",blue
+"Modifiers & Definitions,explicit",blue
+"Modifiers & Definitions,extern",blue
+"Modifiers & Definitions,file",blue
+"Modifiers & Definitions,fixed",blue
+"Modifiers & Definitions,implicit",blue
+"Modifiers & Definitions,interface",blue
+"Modifiers & Definitions,internal",blue
+"Modifiers & Definitions,new",blue
+"Modifiers & Definitions,operator",blue
+"Modifiers & Definitions,override",blue
+"Modifiers & Definitions,partial",blue
+"Modifiers & Definitions,private",blue
+"Modifiers & Definitions,protected",blue
+"Modifiers & Definitions,public",blue
+"Modifiers & Definitions,readonly",blue
+"Modifiers & Definitions,record",blue
+"Modifiers & Definitions,sealed",blue
+"Modifiers & Definitions,static",blue
+"Modifiers & Definitions,struct",blue
+"Modifiers & Definitions,this",blue
+"Modifiers & Definitions,unsafe",blue
+"Modifiers & Definitions,virtual",blue
+"Modifiers & Definitions,volatile",blue
+"Logic & Operators,as",blue
+"Logic & Operators,checked",blue
+"Logic & Operators,is",blue
+"Logic & Operators,lock",blue
+"Logic & Operators,nameof",blue
+"Logic & Operators,out",blue
+"Logic & Operators,params",blue
+"Logic & Operators,ref",blue
+"Logic & Operators,sizeof",blue
+"Logic & Operators,stackalloc",blue
+"Logic & Operators,typeof",blue
+"Logic & Operators,unchecked",blue
+"Logic & Operators,using",blue
+"LINQ & Contextual,add",blue
+"LINQ & Contextual,alias",blue
+"LINQ & Contextual,ascending",blue
+"LINQ & Contextual,by",blue
+"LINQ & Contextual,descending",blue
+"LINQ & Contextual,dynamic",blue
+"LINQ & Contextual,equals",blue
+"LINQ & Contextual,from",blue
+"LINQ & Contextual,get",blue
+"LINQ & Contextual,global",blue
+"LINQ & Contextual,group",blue
+"LINQ & Contextual,init",blue
+"LINQ & Contextual,into",blue
+"LINQ & Contextual,join",blue
+"LINQ & Contextual,let",blue
+"LINQ & Contextual,managed",blue
+"LINQ & Contextual,on",blue
+"LINQ & Contextual,orderby",blue
+"LINQ & Contextual,remove",blue
+"LINQ & Contextual,select",blue
+"LINQ & Contextual,set",blue
+"LINQ & Contextual,unmanaged",blue
+"LINQ & Contextual,value",blue
+"LINQ & Contextual,var",blue
+"LINQ & Contextual,when",blue
+"LINQ & Contextual,where",blue
+"LINQ & Contextual,with",blue
+"Literals,false",blue
+"Literals,null",blue
+"Literals,true",blue
+"Symbols,+",blue
+"Symbols,-",blue
+"Symbols,*",blue
+"Symbols,/",blue
+"Symbols,%",blue
+"Symbols,&",blue
+"Symbols,|",white
+"Symbols,^",white
+"Symbols,!",white
+"Symbols,~",white
+"Symbols,=",white
+"Symbols,<",white
+"Symbols,>",white
+"Symbols,?",white
+"Symbols,??",white
+"Symbols,::",white
+"Symbols,?.",white
+"Symbols,=>",white
+"Symbols,++",white
+"Symbols,--",white
+"Symbols,&&",white
+"Symbols,||",white
+"Symbols,<<",white
+"Symbols,>>",white
+"Symbols,==",white
+"Symbols,!=",white
+"Symbols,<=",white
+"Symbols,>=",white
+"Symbols,+=",white
+"Symbols,-=",white
+"Symbols,*=",white
+"Symbols,/=",white
+"Symbols,%=",white
+"Symbols,&=",white
+"Symbols,|=",white
+"Symbols,^=",white
+"Symbols,<<=",white
+"Symbols,>>=",white
+"Symbols,??=",white
+"Symbols,..",white
+"Category,Word",white
+"Preprocessor,#if",white
+"Preprocessor,#else",gray
+"Preprocessor,#elif",purple
+"Preprocessor,#endif",purple
+"Preprocessor,#define",purple
+"Preprocessor,#undef",purple
+"Preprocessor,#warning",purple
+"Preprocessor,#error",purple
+"Preprocessor,#line",purple
+"Preprocessor,#region",purple
+"Preprocessor,#endregion",purple
+"Preprocessor,#pragma",purple
+"Preprocessor,#nullable",purple
+"Category,Word",purple
+"DocComment,summary",purple
+"DocComment,remarks",gray
+"DocComment,param",gray
+"DocComment,returns",gray
+"DocComment,exception",gray
+"DocComment,example",gray
+"DocComment,code",gray
+"DocComment,see",gray
+"DocComment,seealso",gray
+"DocComment,inheritdoc",gray
+"DocComment,list",gray
+"DocComment,item",gray
+"DocComment,description",gray
+"DocComment,typeparam",gray
+"DocComment,value",gray
+"Category,Word",gray
+"Common Class,Console",gray
+"Common Class,Math",gray
+"Common Class,DateTime",lightgreen
+"Common Class,TimeSpan",lightgreen
+"Common Class,Guid",lightgreen
+"Common Class,String",lightgreen
+"Common Class,StringBuilder",lightgreen
+"Common Class,Environment",lightgreen
+"Common Class,Convert",lightgreen
+"Collection,List",lightgreen
+"Collection,Dictionary",lightgreen
+"Collection,HashSet",lightgreen
+"Collection,Queue",lightgreen
+"Collection,Stack",lightgreen
+"Collection,IEnumerable",lightgreen
+"Collection,ICollection",lightgreen
+"Collection,IList",lightgreen
+"IO/System,File",lightgreen
+"IO/System,Directory",lightgreen
+"IO/System,Path",lightgreen
+"IO/System,Stream",lightgreen
+"IO/System,Task",lightgreen
+"IO/System,Thread",lightgreen
+"IO/System,Exception",lightgreen
+"IO/System,Attribute",lightgreen
+"Category,Word",lightgreen
+"Attribute,Serializable",lightgreen
+"Attribute,Obsolete",gray
+"Attribute,Conditional",lightgreen
+"Attribute,AttributeUsage",lightgreen
+"Attribute,Flags",lightgreen
+"Attribute,NonSerialized",lightgreen
+"Attribute,DllImport",lightgreen
+"Attribute,MarshalAs",lightgreen
+"Attribute,StructLayout",lightgreen
+"Attribute,JsonPropertyName",lightgreen
+"Attribute,Required",lightgreen
+"Attribute,StringLength",lightgreen
+"Attribute,Range",lightgreen
+"Attribute,Key",lightgreen
+"Attribute,Display",lightgreen
+"Category,Word",lightgreen
+"Attribute,Serializable",lightgreen
+"Attribute,Obsolete",gray
+"Attribute,Conditional",lightgreen
+"Attribute,AttributeUsage",lightgreen
+"Attribute,Flags",lightgreen
+"Attribute,DllImport",lightgreen
+"Attribute,MarshalAs",lightgreen
+"Attribute,StructLayout",lightgreen
+"Attribute,FieldOffset",lightgreen
+"Attribute,NonSerialized",lightgreen
+"Attribute,ThreadStatic",lightgreen
+"Attribute,ContextStatic",lightgreen
+"Attribute,CLSCompliant",lightgreen
+"Attribute,CallerMemberName",lightgreen
+"Attribute,CallerFilePath",lightgreen
+"Attribute,CallerLineNumber",lightgreen
+"Attribute,CallerArgumentExpression",lightgreen
+"Attribute,MethodImpl",lightgreen
+"Attribute,InternalsVisibleTo",lightgreen
+"Attribute,RequiredMember",lightgreen
+"Attribute,SetsRequiredMembers",lightgreen
+"Attribute,InterpolatedStringHandler",lightgreen
+"Attribute,ModuleInitializer",lightgreen
+"Attribute,SkipLocalsInit",lightgreen
+"Attribute,UnscopedRef",lightgreen
+"Attribute,OverloadResolutionPriority",lightgreen
+"Attribute,Experimental",lightgreen
+"Attribute,AsyncMethodBuilder",lightgreen
+"Attribute,EnumeratorCancellation",lightgreen
+"Attribute,CollectionBuilder",lightgreen
+"Category,Word",lightgreen
+"Snippet,for",lightgreen
+"Snippet,foreach",lightgreen
+"Snippet,while",gray
+"Snippet,do",purple
+"Snippet,if",purple
+"Snippet,else",purple
+"Snippet,switch",purple
+"Snippet,try",purple
+"Snippet,catch",purple
+"Snippet,finally",purple
+"Snippet,using",purple
+"Snippet,lock",purple
+"Snippet,class",purple
+"Snippet,struct",purple
+"Snippet,interface",purple
+"Snippet,enum",blue
+"Snippet,prop",blue
+"Snippet,propfull",blue
+"Snippet,propg",blue
+"Snippet,ctor",yellow
+"Snippet,cw",yellow
+"Snippet,sim",yellow
+"Snippet,svm",yellow
+"Snippet,indexer",yellow
