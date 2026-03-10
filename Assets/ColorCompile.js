@@ -1,6 +1,3 @@
-// ===============================
-//  Color Name → HEX Full Dictionary
-// ===============================
 const ColorTable = {
   aliceblue: "#F0F8FF",
   antiquewhite: "#FAEBD7",
