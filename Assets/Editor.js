@@ -1,11 +1,11 @@
 // ===============================
 //  1. キーワード辞書
 // ===============================
-const keywordColors = {};  // { "for": "#FF00FF", ... }
+const keywordColors = {};
 
 
 // ===============================
-//  2. CSV ローダー（GitHub の CSV を読み込む）
+//  2. CSV ローダー
 // ===============================
 async function loadCSV(url) {
     const res = await fetch(url);
@@ -13,29 +13,38 @@ async function loadCSV(url) {
     const lines = text.split("\n");
 
     for (const line of lines) {
-        // 修正した
         const m = line.match(/"(.+?)",(.+)/);
         if (!m) continue;
 
-        const categoryWord = m[1];   // "Built-in Types,bool"
-        const colorName = m[2].trim(); // blue
+        const categoryWord = m[1];
+        const colorName = m[2].trim();
 
         const parts = categoryWord.split(",");
-        const word = parts[1]; // bool
+        const word = parts[1];
 
-        // ColorCompile.js の getColor() を使用
         const hex = getColor(colorName);
-
         keywordColors[word] = hex;
     }
 }
 
 
 // ===============================
-//  3. シンタックスハイライト
+//  3. トークン分割
 // ===============================
-function highlight(code) {
-    const tokens = code.split(/(\W+)/);
+function tokenize(code) {
+    return code.split(/(\s+|==|!=|<=|>=|=>|::|->|\.\.|\.|,|\(|\)|\{|\}|
+
+\[|\]
+
+|;|\+|-|\*|\/|%|&|\||\^|!|<|>|\?|:)/);
+}
+
+
+// ===============================
+//  4. シンタックスハイライト
+// ===============================
+function highlightCode(code) {
+    const tokens = tokenize(code);
 
     return tokens.map(t => {
         const color = keywordColors[t];
@@ -48,20 +57,25 @@ function highlight(code) {
 
 
 // ===============================
-//  4. Editor バインド
+//  5. Editor バインド（IDE 方式）
 // ===============================
-function bindEditor(inputId, outputId) {
-    const input = document.getElementById(inputId);
-    const output = document.getElementById(outputId);
+function bindEditor() {
+    const input = document.getElementById("editor");
+    const highlight = document.getElementById("highlight");
 
     input.addEventListener("input", () => {
-        output.innerHTML = highlight(input.value);
+        highlight.innerHTML = highlightCode(input.value);
+    });
+
+    input.addEventListener("scroll", () => {
+        highlight.scrollTop = input.scrollTop;
+        highlight.scrollLeft = input.scrollLeft;
     });
 }
 
 
 // ===============================
-//  5. 全辞書ロード（C#, Unity, Python, JS）
+//  6. 全辞書ロード
 // ===============================
 async function loadAllDictionaries() {
     await loadCSV("https://raw.githubusercontent.com/frisk-V3/V3-Editor/refs/heads/main/code%20list/C%23.csv");
