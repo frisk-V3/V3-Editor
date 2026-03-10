@@ -1,4 +1,14 @@
+<link rel="stylesheet" href="Editor.css">
+
 <div id="editor-container">
     <pre id="highlight"></pre>
     <textarea id="editor"></textarea>
 </div>
+
+<script src="ColorCompile.js"></script>
+<script src="Editor.js"></script>
+<script>
+    loadAllDictionaries().then(() => {
+        bindEditor();
+    });
+</script>
