@@ -12,6 +12,16 @@ jobs:
     strategy:
       matrix:
         os: [windows-latest, macos-latest, ubuntu-latest]
+        include:
+          - os: windows-latest
+            platform: windows
+            args: --windows -c.win.sign=false
+          - os: macos-latest
+            platform: mac
+            args: --mac -c.mac.identity=null
+          - os: ubuntu-latest
+            platform: linux
+            args: --linux
 
     runs-on: ${{ matrix.os }}
 
@@ -31,16 +41,9 @@ jobs:
         run: npm install
 
       - name: Build application
-        # 実行中のOSに合わせて --windows, --mac, --linux を切り替えます
-        # また、署名を強制的にオフにする設定も全OS共通で入れました
-        run: |
-          if [ "$RUNNER_OS" == "Windows" ]; then
-            npm run dist -- --windows -c.win.sign=false
-          elif [ "$RUNNER_OS" == "macOS" ]; then
-            npm run dist -- --mac -c.mac.identity=null
-          else
-            npm run dist -- --linux
-          fi
+        # 複雑なif文を避け、matrixの引数をそのまま渡すことで全OS共通化します
+        # 既存リリースの衝突を避けるため publish=never を追加
+        run: npm run dist -- ${{ matrix.args }} -c.publish=never
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_SKIP_2FA_SETTING: true 
@@ -57,7 +60,6 @@ jobs:
             dist/*.AppImage
             dist/*.zip
             dist/*.deb
-            dist/*.rpm
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
