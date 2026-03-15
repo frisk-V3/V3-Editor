@@ -1,4 +1,4 @@
-const ColorTable = {
+export const ColorTable = {
   aliceblue: "#F0F8FF",
   antiquewhite: "#FAEBD7",
   aqua: "#00FFFF",
@@ -146,27 +146,12 @@ const ColorTable = {
   whitesmoke: "#F5F5F5",
   yellow: "#FFFF00",
   yellowgreen: "#9ACD32"
-};
+} as const;
 
-// ===============================
-//  Convert Color Name → HEX
-// ===============================
-function toHexColor(name) {
-  if (!name) return null;
-  const key = name.toLowerCase().replace(/\s+/g, "");
-  return ColorTable[key] || null;
-}
+export type ColorName = keyof typeof ColorTable;
 
-// ===============================
-//  Convert with fallback
-// ===============================
-function getColor(name, fallback = "#FF00FF") {
-  return toHexColor(name) || fallback;
-}
+export const toHexColor = (name?: string | null) =>
+  name ? ColorTable[name.toLowerCase().replace(/\s+/g, "") as ColorName] ?? null : null;
 
-// ===============================
-//  Example
-// ===============================
-console.log(getColor("blue"));        // "#0000FF"
-console.log(getColor("LightGreen"));  // "#90EE90"
-console.log(getColor("unknown"));     // "#FF00FF"
+export const getColor = (name?: string | null, fallback = "#FF00FF") =>
+  toHexColor(name) ?? fallback;
