@@ -15,6 +15,7 @@ jobs:
         os: [windows-latest, macos-latest, ubuntu-latest]
         include:
           - os: windows-latest
+            # -cの直後にスペースを入れない形式に修正
             args: --windows -c.win.sign=false
           - os: macos-latest
             args: --mac -c.mac.identity=null -c.mac.type=development
@@ -45,7 +46,7 @@ jobs:
         run: npm install
 
       - name: Build application
-        # 壊れている可能性がある設定ファイルを無視し、引数だけでビルドします
+        # --publish never の前後のスペースも確実にとりました
         run: npm run dist -- --publish never ${{ matrix.args }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -64,6 +65,7 @@ jobs:
             dist/*.dmg
             dist/*.AppImage
             dist/*.zip
+            dist/*.deb
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
