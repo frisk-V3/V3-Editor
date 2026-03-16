@@ -15,12 +15,11 @@ jobs:
         os: [windows-latest, macos-latest, ubuntu-latest]
         include:
           - os: windows-latest
-            # PowerShellでドットを含む引数が分割されないよう、個別に指定
-            args: '-w --config.win.sign=false --config.win.target=nsis'
+            args: '--win'
           - os: macos-latest
-            args: '-m --config.mac.identity=null --config.mac.type=development'
+            args: '--mac'
           - os: ubuntu-latest
-            args: '-l'
+            args: '--linux'
 
     runs-on: ${{ matrix.os }}
 
@@ -43,16 +42,16 @@ jobs:
           sudo apt-get install -y libarchive-tools libfuse2
 
       - name: Install dependencies
-        # 毎回フルでインストール
         run: npm install
 
       - name: Build application
-        # 引用符で囲んで引数を渡すことで、Windowsでの誤認を徹底防止
+        # 引数はシンプルにOS指定のみ。詳細はpackage.jsonの設定が優先されます。
         run: |
           npm run build --if-present
           npx electron-builder --publish never ${{ matrix.args }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 署名ツールを探しに行かないよう強制設定
           CSC_IDENTITY_AUTO_DISCOVERY: false
           CSC_SKIP_2FA_SETTING: true
           ELECTRON_SKIP_NOTARIZATION: true
