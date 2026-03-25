@@ -1,0 +1,32 @@
+package com.editor;
+
+import com.languages.LanguageDefinition;
+import com.languages.TokenRule;
+import org.fxmisc.richtext.model.StyleSpans;
+import org.fxmisc.richtext.model.StyleSpansBuilder;
+
+import java.util.*;
+
+public class SyntaxHighlighter {
+
+    private final Map<String, String> colorMap;
+
+    public SyntaxHighlighter(LanguageDefinition lang) {
+        colorMap = new HashMap<>();
+        for (TokenRule rule : lang.tokens()) {
+            colorMap.put(rule.token(), rule.color());
+        }
+    }
+
+    public StyleSpans<Collection<String>> highlight(String text) {
+        StyleSpansBuilder<Collection<String>> spans = new StyleSpansBuilder<>();
+
+        String[] tokens = text.split("\\b");
+        for (String t : tokens) {
+            String color = colorMap.getOrDefault(t, "default");
+            spans.add(Collections.singleton(color), t.length());
+        }
+
+        return spans.create();
+    }
+}
