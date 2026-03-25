@@ -1,0 +1,1038 @@
+[
+    {
+        "break": "case",
+        "purple": "purple"
+    },
+    {
+        "break": "catch",
+        "purple": "purple"
+    },
+    {
+        "break": "class",
+        "purple": "blue"
+    },
+    {
+        "break": "const",
+        "purple": "purple"
+    },
+    {
+        "break": "continue",
+        "purple": "purple"
+    },
+    {
+        "break": "debugger",
+        "purple": "purple"
+    },
+    {
+        "break": "default",
+        "purple": "purple"
+    },
+    {
+        "break": "delete",
+        "purple": "purple"
+    },
+    {
+        "break": "do",
+        "purple": "purple"
+    },
+    {
+        "break": "else",
+        "purple": "purple"
+    },
+    {
+        "break": "export",
+        "purple": "purple"
+    },
+    {
+        "break": "extends",
+        "purple": "blue"
+    },
+    {
+        "break": "finally",
+        "purple": "purple"
+    },
+    {
+        "break": "for",
+        "purple": "purple"
+    },
+    {
+        "break": "function",
+        "purple": "blue"
+    },
+    {
+        "break": "if",
+        "purple": "purple"
+    },
+    {
+        "break": "import",
+        "purple": "purple"
+    },
+    {
+        "break": "in",
+        "purple": "purple"
+    },
+    {
+        "break": "instanceof",
+        "purple": "purple"
+    },
+    {
+        "break": "new",
+        "purple": "blue"
+    },
+    {
+        "break": "return",
+        "purple": "purple"
+    },
+    {
+        "break": "super",
+        "purple": "purple"
+    },
+    {
+        "break": "switch",
+        "purple": "purple"
+    },
+    {
+        "break": "this",
+        "purple": "purple"
+    },
+    {
+        "break": "throw",
+        "purple": "purple"
+    },
+    {
+        "break": "try",
+        "purple": "purple"
+    },
+    {
+        "break": "typeof",
+        "purple": "purple"
+    },
+    {
+        "break": "var",
+        "purple": "purple"
+    },
+    {
+        "break": "void",
+        "purple": "purple"
+    },
+    {
+        "break": "while",
+        "purple": "purple"
+    },
+    {
+        "break": "with",
+        "purple": "purple"
+    },
+    {
+        "break": "yield",
+        "purple": "purple"
+    },
+    {
+        "break": "",
+        "purple": "purple"
+    },
+    {
+        "break": "# Strict Mode Future Reserved",
+        "purple": "purple"
+    },
+    {
+        "break": "enum",
+        "purple": "purple"
+    },
+    {
+        "break": "implements",
+        "purple": "purple"
+    },
+    {
+        "break": "interface",
+        "purple": "purple"
+    },
+    {
+        "break": "let",
+        "purple": "purple"
+    },
+    {
+        "break": "package",
+        "purple": "purple"
+    },
+    {
+        "break": "private",
+        "purple": "purple"
+    },
+    {
+        "break": "protected",
+        "purple": "blue"
+    },
+    {
+        "break": "public",
+        "purple": "blue"
+    },
+    {
+        "break": "static",
+        "purple": "blue"
+    },
+    {
+        "break": "",
+        "purple": "blue"
+    },
+    {
+        "break": "# Literals",
+        "purple": "blue"
+    },
+    {
+        "break": "TRUE",
+        "purple": "blue"
+    },
+    {
+        "break": "FALSE",
+        "purple": "blue"
+    },
+    {
+        "break": "null",
+        "purple": "white"
+    },
+    {
+        "break": "undefined",
+        "purple": "white"
+    },
+    {
+        "break": "NaN",
+        "purple": "white"
+    },
+    {
+        "break": "Infinity",
+        "purple": "white"
+    },
+    {
+        "break": "",
+        "purple": "white"
+    },
+    {
+        "break": "# Operators",
+        "purple": "white"
+    },
+    {
+        "break": "#ERROR!",
+        "purple": "white"
+    },
+    {
+        "break": "-",
+        "purple": "white"
+    },
+    {
+        "break": "*",
+        "purple": "white"
+    },
+    {
+        "break": "/",
+        "purple": "white"
+    },
+    {
+        "break": "%",
+        "purple": "white"
+    },
+    {
+        "break": "**",
+        "purple": "white"
+    },
+    {
+        "break": "#ERROR!",
+        "purple": "white"
+    },
+    {
+        "break": "#ERROR!",
+        "purple": "white"
+    },
+    {
+        "break": "#ERROR!",
+        "purple": "white"
+    },
+    {
+        "break": "!=",
+        "purple": "purple"
+    },
+    {
+        "break": "!==",
+        "purple": "purple"
+    },
+    {
+        "break": "<",
+        "purple": "purple"
+    },
+    {
+        "break": ">",
+        "purple": "purple"
+    },
+    {
+        "break": "<=",
+        "purple": "purple"
+    },
+    {
+        "break": ">=",
+        "purple": "purple"
+    },
+    {
+        "break": "&&",
+        "purple": "purple"
+    },
+    {
+        "break": "||",
+        "purple": "purple"
+    },
+    {
+        "break": "??",
+        "purple": "purple"
+    },
+    {
+        "break": "!",
+        "purple": "purple"
+    },
+    {
+        "break": "~",
+        "purple": "purple"
+    },
+    {
+        "break": "&",
+        "purple": "purple"
+    },
+    {
+        "break": "|",
+        "purple": "purple"
+    },
+    {
+        "break": "^",
+        "purple": "purple"
+    },
+    {
+        "break": "<<",
+        "purple": "purple"
+    },
+    {
+        "break": ">>",
+        "purple": "purple"
+    },
+    {
+        "break": ">>>",
+        "purple": "purple"
+    },
+    {
+        "break": "#ERROR!",
+        "purple": "purple"
+    },
+    {
+        "break": "-=",
+        "purple": "purple"
+    },
+    {
+        "break": "*=",
+        "purple": "purple"
+    },
+    {
+        "break": "/=",
+        "purple": "purple"
+    },
+    {
+        "break": "%=",
+        "purple": "purple"
+    },
+    {
+        "break": "**=",
+        "purple": "purple"
+    },
+    {
+        "break": "<<=",
+        "purple": "purple"
+    },
+    {
+        "break": ">>=",
+        "purple": "purple"
+    },
+    {
+        "break": ">>>=",
+        "purple": "white"
+    },
+    {
+        "break": "&=",
+        "purple": "white"
+    },
+    {
+        "break": "|=",
+        "purple": "white"
+    },
+    {
+        "break": "^=",
+        "purple": "white"
+    },
+    {
+        "break": "&&=",
+        "purple": "white"
+    },
+    {
+        "break": "||=",
+        "purple": "white"
+    },
+    {
+        "break": "??=",
+        "purple": "purple"
+    },
+    {
+        "break": "?:",
+        "purple": "white"
+    },
+    {
+        "break": ",",
+        "purple": "white"
+    },
+    {
+        "break": "...",
+        "purple": "white"
+    },
+    {
+        "break": ".",
+        "purple": "purple"
+    },
+    {
+        "break": "?.",
+        "purple": "purple"
+    },
+    {
+        "break": "??",
+        "purple": "purple"
+    },
+    {
+        "break": "G90=>",
+        "purple": "purple"
+    },
+    {
+        "break": "[]",
+        "purple": "purple"
+    },
+    {
+        "break": "{}",
+        "purple": "purple"
+    },
+    {
+        "break": "()",
+        "purple": "purple"
+    },
+    {
+        "break": "",
+        "purple": "purple"
+    },
+    {
+        "break": "# Statements / Syntax",
+        "purple": "purple"
+    },
+    {
+        "break": "async",
+        "purple": "purple"
+    },
+    {
+        "break": "await",
+        "purple": "purple"
+    },
+    {
+        "break": "import",
+        "purple": "purple"
+    },
+    {
+        "break": "export",
+        "purple": "purple"
+    },
+    {
+        "break": "from",
+        "purple": "purple"
+    },
+    {
+        "break": "as",
+        "purple": "purple"
+    },
+    {
+        "break": "default",
+        "purple": "purple"
+    },
+    {
+        "break": "get",
+        "purple": "purple"
+    },
+    {
+        "break": "set",
+        "purple": "purple"
+    },
+    {
+        "break": "of",
+        "purple": "purple"
+    },
+    {
+        "break": "for",
+        "purple": "purple"
+    },
+    {
+        "break": "for await",
+        "purple": "purple"
+    },
+    {
+        "break": "for in",
+        "purple": "purple"
+    },
+    {
+        "break": "for of",
+        "purple": "purple"
+    },
+    {
+        "break": "try",
+        "purple": "purple"
+    },
+    {
+        "break": "catch",
+        "purple": "purple"
+    },
+    {
+        "break": "finally",
+        "purple": "purple"
+    },
+    {
+        "break": "switch",
+        "purple": "purple"
+    },
+    {
+        "break": "case",
+        "purple": "purple"
+    },
+    {
+        "break": "break",
+        "purple": "purple"
+    },
+    {
+        "break": "continue",
+        "purple": "purple"
+    },
+    {
+        "break": "if",
+        "purple": "green"
+    },
+    {
+        "break": "else",
+        "purple": "green"
+    },
+    {
+        "break": "do",
+        "purple": "green"
+    },
+    {
+        "break": "while",
+        "purple": "green"
+    },
+    {
+        "break": "return",
+        "purple": "green"
+    },
+    {
+        "break": "throw",
+        "purple": "green"
+    },
+    {
+        "break": "debugger",
+        "purple": "green"
+    },
+    {
+        "break": "with",
+        "purple": "green"
+    },
+    {
+        "break": "",
+        "purple": "green"
+    },
+    {
+        "break": "# Global Objects",
+        "purple": "green"
+    },
+    {
+        "break": "Object",
+        "purple": "green"
+    },
+    {
+        "break": "Function",
+        "purple": "green"
+    },
+    {
+        "break": "Boolean",
+        "purple": "green"
+    },
+    {
+        "break": "Symbol",
+        "purple": "green"
+    },
+    {
+        "break": "BigInt",
+        "purple": "green"
+    },
+    {
+        "break": "Number",
+        "purple": "green"
+    },
+    {
+        "break": "Math",
+        "purple": "green"
+    },
+    {
+        "break": "Date",
+        "purple": "green"
+    },
+    {
+        "break": "String",
+        "purple": "green"
+    },
+    {
+        "break": "RegExp",
+        "purple": "green"
+    },
+    {
+        "break": "Error",
+        "purple": "green"
+    },
+    {
+        "break": "EvalError",
+        "purple": "green"
+    },
+    {
+        "break": "RangeError",
+        "purple": "green"
+    },
+    {
+        "break": "ReferenceError",
+        "purple": "green"
+    },
+    {
+        "break": "SyntaxError",
+        "purple": "green"
+    },
+    {
+        "break": "TypeError",
+        "purple": "green"
+    },
+    {
+        "break": "URIError",
+        "purple": "green"
+    },
+    {
+        "break": "JSON",
+        "purple": "green"
+    },
+    {
+        "break": "Promise",
+        "purple": "green"
+    },
+    {
+        "break": "Generator",
+        "purple": "green"
+    },
+    {
+        "break": "GeneratorFunction",
+        "purple": "green"
+    },
+    {
+        "break": "AsyncFunction",
+        "purple": "green"
+    },
+    {
+        "break": "AsyncGenerator",
+        "purple": "green"
+    },
+    {
+        "break": "AsyncGeneratorFunction",
+        "purple": "green"
+    },
+    {
+        "break": "",
+        "purple": "green"
+    },
+    {
+        "break": "# Typed Arrays",
+        "purple": "green"
+    },
+    {
+        "break": "ArrayBuffer",
+        "purple": "green"
+    },
+    {
+        "break": "SharedArrayBuffer",
+        "purple": "green"
+    },
+    {
+        "break": "DataView",
+        "purple": "green"
+    },
+    {
+        "break": "Int8Array",
+        "purple": "green"
+    },
+    {
+        "break": "Uint8Array",
+        "purple": "green"
+    },
+    {
+        "break": "Uint8ClampedArray",
+        "purple": "green"
+    },
+    {
+        "break": "Int16Array",
+        "purple": "green"
+    },
+    {
+        "break": "Uint16Array",
+        "purple": "green"
+    },
+    {
+        "break": "Int32Array",
+        "purple": "green"
+    },
+    {
+        "break": "Uint32Array",
+        "purple": "green"
+    },
+    {
+        "break": "Float32Array",
+        "purple": "yellow"
+    },
+    {
+        "break": "Float64Array",
+        "purple": "yellow"
+    },
+    {
+        "break": "BigInt64Array",
+        "purple": "yellow"
+    },
+    {
+        "break": "BigUint64Array",
+        "purple": "yellow"
+    },
+    {
+        "break": "",
+        "purple": "yellow"
+    },
+    {
+        "break": "# Collections",
+        "purple": "yellow"
+    },
+    {
+        "break": "Array",
+        "purple": "yellow"
+    },
+    {
+        "break": "Map",
+        "purple": "yellow"
+    },
+    {
+        "break": "Set",
+        "purple": "yellow"
+    },
+    {
+        "break": "WeakMap",
+        "purple": "yellow"
+    },
+    {
+        "break": "WeakSet",
+        "purple": "yellow"
+    },
+    {
+        "break": "",
+        "purple": "yellow"
+    },
+    {
+        "break": "# Atomics",
+        "purple": "yellow"
+    },
+    {
+        "break": "Atomics",
+        "purple": "yellow"
+    },
+    {
+        "break": "",
+        "purple": "yellow"
+    },
+    {
+        "break": "# Reflect / Proxy",
+        "purple": "yellow"
+    },
+    {
+        "break": "Reflect",
+        "purple": "white"
+    },
+    {
+        "break": "Proxy",
+        "purple": "white"
+    },
+    {
+        "break": "",
+        "purple": "yellow"
+    },
+    {
+        "break": "# Global Functions",
+        "purple": "yellow"
+    },
+    {
+        "break": "eval",
+        "purple": "yellow"
+    },
+    {
+        "break": "isFinite",
+        "purple": "yellow"
+    },
+    {
+        "break": "isNaN",
+        "purple": "yellow"
+    },
+    {
+        "break": "parseFloat",
+        "purple": "green"
+    },
+    {
+        "break": "parseInt",
+        "purple": "green"
+    },
+    {
+        "break": "encodeURI",
+        "purple": "green"
+    },
+    {
+        "break": "decodeURI",
+        "purple": "green"
+    },
+    {
+        "break": "encodeURIComponent",
+        "purple": "green"
+    },
+    {
+        "break": "decodeURIComponent",
+        "purple": "green"
+    },
+    {
+        "break": "queueMicrotask",
+        "purple": "green"
+    },
+    {
+        "break": "setTimeout",
+        "purple": "yellow"
+    },
+    {
+        "break": "clearTimeout",
+        "purple": "yellow"
+    },
+    {
+        "break": "setInterval",
+        "purple": "yellow"
+    },
+    {
+        "break": "clearInterval",
+        "purple": "green"
+    },
+    {
+        "break": "setImmediate",
+        "purple": "green"
+    },
+    {
+        "break": "clearImmediate",
+        "purple": "green"
+    },
+    {
+        "break": "",
+        "purple": "green"
+    },
+    {
+        "break": "# Web APIs (Common)",
+        "purple": "green"
+    },
+    {
+        "break": "window",
+        "purple": "green"
+    },
+    {
+        "break": "document",
+        "purple": "green"
+    },
+    {
+        "break": "console",
+        "purple": "green"
+    },
+    {
+        "break": "alert",
+        "purple": "white"
+    },
+    {
+        "break": "prompt",
+        "purple": "white"
+    },
+    {
+        "break": "confirm",
+        "purple": "white"
+    },
+    {
+        "break": "fetch",
+        "purple": "yellow"
+    },
+    {
+        "break": "Headers",
+        "purple": "yellow"
+    },
+    {
+        "break": "Request",
+        "purple": "white"
+    },
+    {
+        "break": "Response",
+        "purple": "white"
+    },
+    {
+        "break": "FormData",
+        "purple": "green"
+    },
+    {
+        "break": "URL",
+        "purple": "green"
+    },
+    {
+        "break": "URLSearchParams",
+        "purple": "green"
+    },
+    {
+        "break": "WebSocket",
+        "purple": "green"
+    },
+    {
+        "break": "Event",
+        "purple": "green"
+    },
+    {
+        "break": "CustomEvent",
+        "purple": "white"
+    },
+    {
+        "break": "dispatchEvent",
+        "purple": "green"
+    },
+    {
+        "break": "addEventListener",
+        "purple": "green"
+    },
+    {
+        "break": "removeEventListener",
+        "purple": ""
+    },
+    {
+        "break": "# DOM Elements",
+        "purple": ""
+    },
+    {
+        "break": "Element",
+        "purple": ""
+    },
+    {
+        "break": "HTMLElement",
+        "purple": ""
+    },
+    {
+        "break": "Node",
+        "purple": ""
+    },
+    {
+        "break": "NodeList",
+        "purple": ""
+    },
+    {
+        "break": "HTMLCollection",
+        "purple": ""
+    },
+    {
+        "break": "Document",
+        "purple": ""
+    },
+    {
+        "break": "DocumentFragment",
+        "purple": ""
+    },
+    {
+        "break": "ShadowRoot",
+        "purple": ""
+    },
+    {
+        "break": "# Storage",
+        "purple": ""
+    },
+    {
+        "break": "localStorage",
+        "purple": ""
+    },
+    {
+        "break": "sessionStorage",
+        "purple": ""
+    },
+    {
+        "break": "indexedDB",
+        "purple": ""
+    },
+    {
+        "break": "# Canvas / Graphics",
+        "purple": ""
+    },
+    {
+        "break": "CanvasRenderingContext2D",
+        "purple": ""
+    },
+    {
+        "break": "WebGLRenderingContext",
+        "purple": ""
+    },
+    {
+        "break": "ImageData",
+        "purple": ""
+    },
+    {
+        "break": "# Performance",
+        "purple": ""
+    },
+    {
+        "break": "performance",
+        "purple": ""
+    },
+    {
+        "break": "PerformanceObserver",
+        "purple": ""
+    },
+    {
+        "break": "# Others",
+        "purple": ""
+    },
+    {
+        "break": "Intl",
+        "purple": ""
+    },
+    {
+        "break": "AbortController",
+        "purple": ""
+    },
+    {
+        "break": "AbortSignal",
+        "purple": ""
+    },
+    {
+        "break": "structuredClone",
+        "purple": ""
+    },
+    {
+        "break": "crypto",
+        "purple": ""
+    },
+    {
+        "break": "Crypto",
+        "purple": ""
+    },
+    {
+        "break": "CryptoKey",
+        "purple": ""
+    },
+    {
+        "break": "SubtleCrypto",
+        "purple": ""
+    }
+]

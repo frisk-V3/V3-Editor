@@ -1,0 +1,1114 @@
+[
+    {
+        "FALSE": "None",
+        "blue": "blue"
+    },
+    {
+        "FALSE": "TRUE",
+        "blue": "blue"
+    },
+    {
+        "FALSE": "and",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "as",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "assert",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "async",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "await",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "break",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "class",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "continue",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "def",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "del",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "elif",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "else",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "except",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "finally",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "for",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "from",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "global",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "if",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "import",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "in",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "is",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "lambda",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "nonlocal",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "not",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "or",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "pass",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "raise",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "return",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "try",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "while",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "with",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "yield",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "match",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "case",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "abs",
+        "blue": "purple"
+    },
+    {
+        "FALSE": "all",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "any",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "ascii",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "bin",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "bool",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "breakpoint",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "bytearray",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "bytes",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "callable",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "chr",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "classmethod",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "compile",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "complex",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "delattr",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "dict",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "dir",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "divmod",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "enumerate",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "eval",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "exec",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "filter",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "float",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "format",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "frozenset",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "getattr",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "globals",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "hasattr",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "hash",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "help",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "hex",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "id",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "input",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "int",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "isinstance",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "issubclass",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "iter",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "len",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "list",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "locals",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "map",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "max",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "memoryview",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "min",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "next",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "object",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "oct",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "open",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "ord",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "pow",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "print",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "property",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "range",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "repr",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "reversed",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "round",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "set",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "setattr",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "slice",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "sorted",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "staticmethod",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "str",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "sum",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "super",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "tuple",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "type",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "vars",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "zip",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "int",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "float",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "str",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "bool",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "list",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "tuple",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "set",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "dict",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "bytes",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "bytearray",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "memoryview",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "complex",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "range",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "object",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "type",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "NoneType",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "+",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "-",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "*",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "**",
+        "blue": "white"
+    },
+    {
+        "FALSE": "/",
+        "blue": "white"
+    },
+    {
+        "FALSE": "//",
+        "blue": "white"
+    },
+    {
+        "FALSE": "%",
+        "blue": "white"
+    },
+    {
+        "FALSE": "@",
+        "blue": "white"
+    },
+    {
+        "FALSE": "<<",
+        "blue": "white"
+    },
+    {
+        "FALSE": ">>",
+        "blue": "white"
+    },
+    {
+        "FALSE": "&",
+        "blue": "white"
+    },
+    {
+        "FALSE": "|",
+        "blue": "white"
+    },
+    {
+        "FALSE": "^",
+        "blue": "white"
+    },
+    {
+        "FALSE": "~",
+        "blue": "white"
+    },
+    {
+        "FALSE": ":",
+        "blue": "white"
+    },
+    {
+        "FALSE": "=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "==",
+        "blue": "white"
+    },
+    {
+        "FALSE": "!=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "<",
+        "blue": "white"
+    },
+    {
+        "FALSE": ">",
+        "blue": "white"
+    },
+    {
+        "FALSE": "<=",
+        "blue": "white"
+    },
+    {
+        "FALSE": ">=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "+=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "-=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "*=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "/=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "%=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "**=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "<<=",
+        "blue": "white"
+    },
+    {
+        "FALSE": ">>=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "&=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "|=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "^=",
+        "blue": "white"
+    },
+    {
+        "FALSE": "->",
+        "blue": "white"
+    },
+    {
+        "FALSE": ",",
+        "blue": "white"
+    },
+    {
+        "FALSE": ".",
+        "blue": "white"
+    },
+    {
+        "FALSE": ";",
+        "blue": "white"
+    },
+    {
+        "FALSE": "...",
+        "blue": "white"
+    },
+    {
+        "FALSE": "()",
+        "blue": "white"
+    },
+    {
+        "FALSE": "[]",
+        "blue": "white"
+    },
+    {
+        "FALSE": "{}",
+        "blue": "white"
+    },
+    {
+        "FALSE": "os",
+        "blue": "white"
+    },
+    {
+        "FALSE": "sys",
+        "blue": "white"
+    },
+    {
+        "FALSE": "math",
+        "blue": "white"
+    },
+    {
+        "FALSE": "random",
+        "blue": "white"
+    },
+    {
+        "FALSE": "time",
+        "blue": "white"
+    },
+    {
+        "FALSE": "datetime",
+        "blue": "white"
+    },
+    {
+        "FALSE": "json",
+        "blue": "white"
+    },
+    {
+        "FALSE": "re",
+        "blue": "white"
+    },
+    {
+        "FALSE": "subprocess",
+        "blue": "white"
+    },
+    {
+        "FALSE": "pathlib",
+        "blue": "white"
+    },
+    {
+        "FALSE": "functools",
+        "blue": "white"
+    },
+    {
+        "FALSE": "itertools",
+        "blue": "white"
+    },
+    {
+        "FALSE": "collections",
+        "blue": "white"
+    },
+    {
+        "FALSE": "asyncio",
+        "blue": "white"
+    },
+    {
+        "FALSE": "threading",
+        "blue": "white"
+    },
+    {
+        "FALSE": "multiprocessing",
+        "blue": "white"
+    },
+    {
+        "FALSE": "typing",
+        "blue": "white"
+    },
+    {
+        "FALSE": "statistics",
+        "blue": "white"
+    },
+    {
+        "FALSE": "heapq",
+        "blue": "white"
+    },
+    {
+        "FALSE": "bisect",
+        "blue": "white"
+    },
+    {
+        "FALSE": "shutil",
+        "blue": "white"
+    },
+    {
+        "FALSE": "glob",
+        "blue": "white"
+    },
+    {
+        "FALSE": "logging",
+        "blue": "white"
+    },
+    {
+        "FALSE": "argparse",
+        "blue": "white"
+    },
+    {
+        "FALSE": "enum",
+        "blue": "white"
+    },
+    {
+        "FALSE": "inspect",
+        "blue": "white"
+    },
+    {
+        "FALSE": "traceback",
+        "blue": "white"
+    },
+    {
+        "FALSE": "unittest",
+        "blue": "white"
+    },
+    {
+        "FALSE": "http",
+        "blue": "white"
+    },
+    {
+        "FALSE": "urllib",
+        "blue": "white"
+    },
+    {
+        "FALSE": "email",
+        "blue": "white"
+    },
+    {
+        "FALSE": "sqlite3",
+        "blue": "white"
+    },
+    {
+        "FALSE": "hashlib",
+        "blue": "white"
+    },
+    {
+        "FALSE": "base64",
+        "blue": "white"
+    },
+    {
+        "FALSE": "csv",
+        "blue": "white"
+    },
+    {
+        "FALSE": "configparser",
+        "blue": "white"
+    },
+    {
+        "FALSE": "xml",
+        "blue": "white"
+    },
+    {
+        "FALSE": "html",
+        "blue": "white"
+    },
+    {
+        "FALSE": "socket",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "ssl",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__init__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__new__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__str__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__repr__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__len__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__iter__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__next__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__getitem__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__setitem__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__delitem__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__contains__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__call__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__enter__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__exit__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__add__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__sub__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__mul__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__truediv__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__floordiv__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__mod__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__pow__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__and__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__or__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__xor__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__lshift__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__rshift__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__eq__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__ne__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__lt__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__le__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__gt__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__ge__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__bool__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__hash__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__copy__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "__deepcopy__",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "BaseException",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "Exception",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "ArithmeticError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "AssertionError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "AttributeError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "EOFError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "FloatingPointError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "GeneratorExit",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "ImportError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "IndexError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "KeyError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "KeyboardInterrupt",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "LookupError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "MemoryError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "NameError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "NotImplementedError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "OSError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "OverflowError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "RecursionError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "ReferenceError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "RuntimeError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "StopIteration",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "StopAsyncIteration",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "SyntaxError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "IndentationError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "TabError",
+        "blue": "yellow"
+    },
+    {
+        "FALSE": "SystemError",
+        "blue": "green"
+    },
+    {
+        "FALSE": "TypeError",
+        "blue": "green"
+    },
+    {
+        "FALSE": "UnboundLocalError",
+        "blue": "green"
+    },
+    {
+        "FALSE": "UnicodeError",
+        "blue": "green"
+    },
+    {
+        "FALSE": "ValueError",
+        "blue": "green"
+    },
+    {
+        "FALSE": "ZeroDivisionError",
+        "blue": "green"
+    },
+    {
+        "FALSE": "TRUE",
+        "blue": "green"
+    },
+    {
+        "FALSE": "FALSE",
+        "blue": "green"
+    },
+    {
+        "FALSE": "None",
+        "blue": "green"
+    },
+    {
+        "FALSE": "NotImplemented",
+        "blue": "green"
+    },
+    {
+        "FALSE": "Ellipsis",
+        "blue": "green"
+    },
+    {
+        "FALSE": "__debug__",
+        "blue": "green"
+    },
+    {
+        "FALSE": "import",
+        "blue": "green"
+    },
+    {
+        "FALSE": "from",
+        "blue": "green"
+    },
+    {
+        "FALSE": "as",
+        "blue": "green"
+    }
+]

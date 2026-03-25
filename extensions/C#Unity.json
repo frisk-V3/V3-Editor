@@ -1,0 +1,2634 @@
+[
+    {
+        "using UnityEngine;": "using UnityEditor;",
+        "purple": "purple"
+    },
+    {
+        "using UnityEngine;": "using System;",
+        "purple": "purple"
+    },
+    {
+        "using UnityEngine;": "using System.Collections.Generic;",
+        "purple": "purple"
+    },
+    {
+        "using UnityEngine;": "using System.Linq;",
+        "purple": "purple"
+    },
+    {
+        "using UnityEngine;": "using System.IO;",
+        "purple": "purple"
+    },
+    {
+        "using UnityEngine;": "using System.Text;",
+        "purple": "purple"
+    },
+    {
+        "using UnityEngine;": "List<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Dictionary<K, V>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "T[]",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Stack<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Queue<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ObservableCollection<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "#if UNITY_EDITOR",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "#if DEBUG",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "#endif",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Debug.Log();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Debug.LogWarning();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Debug.LogError();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Debug.Assert();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "if () {}",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "else if () {}",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "else {}",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "switch () { case: break; }",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "foreach (var x in list) {}",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "for (int i = 0; i < n; i++) {}",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "while () {}",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "try {} catch (Exception e) {} finally {}",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "public",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "private",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "protected",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "internal",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "static",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "virtual",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "override",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "abstract",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "async",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "await",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "[MenuItem(\"\")]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[SerializeField]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[HideInInspector]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "GetWindow<T>();",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "OnGUI();",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "GUILayout.Button();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "GUILayout.Label();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "GUILayout.TextField();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorGUILayout.PropertyField();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "IEnumerator",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "IEnumerable<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Action<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Func<T, TResult>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Predicate<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "var",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "dynamic",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "object",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "delegate",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "event",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "readonly",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "const",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "ref",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "out",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "in",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "is",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "as",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "nameof()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "typeof()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "default()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "struct",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "enum",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "interface",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "record",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "sealed",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "partial",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "params",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "lock",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "unsafe",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "fixed",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "stackalloc",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "yield return",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "yield break",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "Attribute",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "AttributeUsage",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "[CanEditMultipleObjects]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[CustomEditor(typeof(T))]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[ExecuteInEditMode]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[InitializeOnLoad]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[RuntimeInitializeOnLoadMethod]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "EditorUtility.SetDirty();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.SaveAssets();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.Refresh();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Selection.activeGameObject",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Undo.RecordObject();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "PrefabUtility.SaveAsPrefabAsset();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "SceneView.duringSceneGui",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Handles.BeginGUI();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Handles.EndGUI();",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "GenericMenu",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "SerializedObject",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "SerializedProperty",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Where()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Select()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "OrderBy()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "FirstOrDefault()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Any()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ToArray()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ToList()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "File.ReadAllText()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "File.WriteAllText()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Path.Combine()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Path.GetExtension()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Directory.CreateDirectory()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "JsonUtility.ToJson()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "JsonUtility.FromJson<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "BinaryFormatter",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "StreamWriter",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "StreamReader",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MemoryStream",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "VisualElement",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Button",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Label",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "TextField",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ListView",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ScrollView",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "StyleSheet",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "VisualTreeAsset",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "VisualElement.Add()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "VisualElement.Remove()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "VisualElement.RegisterCallback<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "EditorSceneManager.GetActiveScene()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorSceneManager.MarkSceneDirty()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Selection.objects",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Selection.instanceIds",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorWindow.GetWindowWithRect<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "EditorWindow.Close()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorWindow.Repaint()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Process.Start()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Thread",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Task",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "CancellationToken",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "System.Reflection",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "GetType()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GetMethod()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GetField()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GetProperty()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "BindingFlags",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MethodInfo",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "FieldInfo",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Invoke()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Marshal.SizeOf()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "IntPtr",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Guid",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "TimeSpan",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "DateTime",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Mathf.Clamp()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Mathf.Lerp()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Mathf.MoveTowards()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Vector3.Distance()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Quaternion.Euler()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "[Range(min, max)]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[Tooltip(\"\")]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[Header(\"\")]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[Space]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[TextArea]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[Multiline]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[ContextMenuItem(\"\", \"\")]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[ContextMenu(\"\")]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[SelectionBase]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[DisallowMultipleComponent]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[RequireComponent(typeof(T))]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "??",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "??=",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "?.",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "!",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "#ERROR!",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "(x, y) => { }",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "with { }",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "init;",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "get;",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "set;",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "nint",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "nuint",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Span<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ReadOnlySpan<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Memory<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ComputeShader",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ComputeBuffer",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "RenderTexture",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Graphics.Blit()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Graphics.DrawMeshInstanced()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "MaterialPropertyBlock",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "GL.PushMatrix()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GL.Begin()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GL.Vertex3()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GL.End()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GL.PopMatrix()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "NativeArray<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "NativeList<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "[NativeDisableUnsafePtrRestriction]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[DllImport(\"dllname\")]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "Extern",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Jobs",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "IJob",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "IJobParallelFor",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "JobHandle",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "[BurstCompile]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "Profiler.BeginSample()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Profiler.EndSample()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "CustomYieldInstruction",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "WaitUntil",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "WaitWhile",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ArgumentNullException",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ArgumentOutOfRangeException",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "NotImplementedException",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "OperationCanceledException",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "primary",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "required",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "scoped",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ref struct",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "readonly struct",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "delegate* unmanaged<...>",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "#pragma warning disable",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "#pragma warning restore",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "#region",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "#endregion",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "UnityEditor.PackageManager",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Client.List()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Client.Add()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetPostprocessor",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "OnPreprocessTexture()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "OnPostprocessModel()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ModelImporter",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "TextureImporter",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "AudioImporter",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "AssetImporter.GetAtPath()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "BuildPipeline.BuildPlayer()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "BuildAssetBundles()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "BuildReport",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "BuildSummary",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "PlayerSettings.SetScriptingDefineSymbolsForGroup()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorUserBuildSettings.SwitchActiveBuildTarget()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ScriptableObject.CreateInstance()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.CreateAsset()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.GetAssetPath()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.GUIDToAssetPath()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.AssetPathToGUID()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorApplication.update",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorApplication.isPlaying",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorApplication.isCompiling",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorApplication.delayCall",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorApplication.playModeStateChanged",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorApplication.quitting",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorAnalytics",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "UnityEvent",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "UnityAction",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "LayerMask.GetMask()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Physics.OverlapSphere()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Physics.RaycastAll()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "RaycastHit",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Plane",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Bounds",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Ray",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "FrameDebugger.IsActive()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.PropertyToID()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.SetGlobalFloat()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.EnableKeyword()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.DisableKeyword()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "CustomEditorWindow",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "EditorWindow.minSize",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorWindow.maxSize",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorWindow.ShowModalUtility()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorWindow.ShowAsDropDown()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Event.current",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Event.current.mousePosition",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Event.current.type",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EventType.MouseDown",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EventType.KeyDown",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "GUI.GetNameOfFocusedControl()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GUI.FocusControl()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GUIUtility.GetControlID()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorGUI.BeginChangeCheck()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorGUI.EndChangeCheck()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorGUI.indentLevel",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "EditorGUIUtility.Load()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorGUIUtility.ObjectContent()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "EditorGUIUtility.PingObject()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "InternalEditorUtility",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ObjectFactory.CreateGameObject()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.GC.Collect()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.GC.GetTotalMemory()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Profiler.GetRuntimeMemorySizeLong()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "UnsafeUtility.AddressOf()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "UnsafeUtility.SizeOf()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "JobHandle.Complete()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "IJobFor",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "IJobParallelForBatch",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "UnityWebRequest",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "UnityWebRequestTexture",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "UnityWebRequestAssetBundle",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "DownloadHandler",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "UploadHandler",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "CertificateHandler",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "OnEnable()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "OnDisable()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "OnValidate()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "OnReset()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "OnDestroy()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "IAsyncEnumerable<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "await foreach ()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ValueTask<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ConfiguredTaskAwaitable",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ThreadStaticAttribute",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ConditionalAttribute",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MethodImplAttribute",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MethodImplOptions.AggressiveInlining",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "StackOnly",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "NativeContainerAttribute",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "NativeArrayOptions",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ReadOnlyAttribute",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "WriteOnlyAttribute",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Deconstruct()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Index",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Range",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "^1",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "..",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "[RequiresPreviewFeatures]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "Unsafe.As<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unsafe.AsPointer<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MemoryMarshal",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ArrayPool<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ObjectPool<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "StringPool",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Utf8String",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ReadOnlySequence<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "CommandBuffer",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ComputeBuffer.SetData()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ComputeBuffer.GetData()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AsyncGPUReadback.Request()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "LocalKeyword",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "GlobalKeyword",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "NativeArray<T>.IsCreated",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "NativeArray<T>.CopyFrom()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "NativeArrayOptions.UninitializedMemory",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Allocator.Temp",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Allocator.TempJob",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Allocator.Persistent",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "UnsafeUtility.Malloc()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "UnsafeUtility.Free()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ScriptableRenderPipeline",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "RenderPipelineAsset",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "RenderPipelineManager.beginCameraRendering",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "ScriptableRenderContext",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "CullingResults",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "DrawingSettings",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "FilteringSettings",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "SortingSettings",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Addressables.LoadAssetAsync<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Addressables.InstantiateAsync()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AsyncOperationHandle<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "IResourceLocation",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "AssetBundle.LoadFromFile()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetBundle.Unload()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.LoadAllAssetsAtPath()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.ImportAsset()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.MoveAsset()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "[MaybeNull]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[NotNull]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[DoesNotReturn]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[UnscopedRef]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "ref readonly",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "readonly ref",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "scoped ref",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "primary constructor",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "collection expression []",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "inline array",
+        "purple": "blue"
+    },
+    {
+        "using UnityEngine;": "Physics.SyncTransforms()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Physics.autoSyncTransforms",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Physics.QueriesHitBackfaces",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Rigidbody.interpolation",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Rigidbody.collisionDetectionMode",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "CharacterController.Move()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "NavMesh.CalculatePath()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "NavMeshAgent.remainingDistance",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Animator.Play()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Animator.SetTrigger()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Animator.IsInTransition()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AnimatorStateInfo",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "AnimationCurve.Evaluate()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Keyframe",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "AudioSource.PlayOneShot()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AudioSource.GetOutputData()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AudioSource.GetSpectrumData()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "OnAudioFilterRead()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "SerialPort.Open()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "SerialPort.ReadLine()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "TcpClient",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "TcpListener",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "UdpClient",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "NetworkStream",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Dns.GetHostEntry()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "IPAddress",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "IPEndPoint",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Socket.Select()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Socket.Poll()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "BitConverter.GetBytes()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Array.Copy()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Buffer.BlockCopy()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ReadOnlySpan<byte>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "BinaryPrimitives",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "HashAlgorithm",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MD5.Create()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "SHA256.Create()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AES.Create()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "HMACSHA256",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Shader.SetGlobalVectorArray()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.PropertyToID()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.EnableKeyword()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.DisableKeyword()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.WarmupAllShaders()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ShaderVariantCollection",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ShaderVariantCollection.WarmUp()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "MemoryProfiler.TakeSnapshot()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "MetaDataImporter",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "OnPostprocessAllAssets()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.FindAssets()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.LoadMainAssetAtPath()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.GetLabels()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.SetLabels()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AssetDatabase.GetCachedIcon()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "PlayerSettings.GetScriptingDefineSymbols()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "PlayerSettings.SetApiCompatibilityLevel()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "IL2CPP.il2cpp_gc_disable()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "IL2CPP.il2cpp_gc_enable()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unsafe.As<T, U>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unsafe.BitCast<T, U>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unsafe.IsNullRef<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unsafe.NullRef<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "RuntimeHelpers.GetHashCode()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "RuntimeHelpers.InitializeArray()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "RuntimeHelpers.IsReferenceOrContainsReferences<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "GC.KeepAlive()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GC.SuppressFinalize()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GC.ReRegisterForFinalize()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "[SourceGenerationAdapter]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "[Generator]",
+        "purple": "orange"
+    },
+    {
+        "using UnityEngine;": "ISourceGenerator",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "IncrementalGenerator",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "GeneratorExecutionContext",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "DiagnosticDescriptor",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "CodeAnalysis.SyntaxTree",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "CodeAnalysis.CSharp.Syntax",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "CSharpCompilation",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "SemanticModel",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ComputeBuffer.SetCounterValue()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ComputeBuffer.CopyCount()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GraphicsBuffer",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "GraphicsBuffer.Target",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "GraphicsBuffer.IndirectArguments",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "AsyncGPUReadback.GetData<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "RenderPipelineManager.beginFrameRendering",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "ScriptableRenderContext.ExecuteCommandBuffer()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ScriptableRenderContext.Submit()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Profiling.Profiler.BeginThreadProfiling()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Profiling.Profiler.EndThreadProfiling()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Profiling.ProfilerMarker",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Profiling.ProfilerCounter",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsDeallocateOnJobCompletionAttribute",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.NativeDisableContainerSafetyRestrictionAttribute",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.As<T, U>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.MallocTracked()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.FreeTracked()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.X86.Avx",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.Arm.AdvSimd",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Vector128<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Vector256<T>",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unsafe.AsRef<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unsafe.SkipInit<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unsafe.SizeOf<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unsafe.Add<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unsafe.Subtract<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MemoryMarshal.AsBytes<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MemoryMarshal.Cast<T, U>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MemoryMarshal.GetReference<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ArrayPool<T>.Shared.Rent()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ArrayPool<T>.Shared.Return()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GC.GetGCMemoryInfo()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GC.GetConfigurationVariables()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GC.RegisterNoGCRegion()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GC.EndNoGCRegion()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Lightmapping.BakeAsync()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Lightmapping.Clear()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "LightmapSettings.lightmaps",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "LightmapData",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ReflectionProbe.RenderProbe()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "NavMeshBuilder.BuildNavMeshData()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "NavMeshDataInstance",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "NavMeshQuery.Raycast()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "XRSettings.enabled",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "XRSettings.isDeviceActive",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "XRDevice.GetNativePtr()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "InputDevices.GetDeviceAtXRNode()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "XRNode.Head",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "XRNode.LeftHand",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "XRNode.RightHand",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "NetworkInterface.GetAllNetworkInterfaces()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "IPGlobalProperties.GetIPGlobalProperties()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Dns.GetHostAddresses()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "SocketAsyncEventArgs",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Socket.AcceptAsync()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Socket.ReceiveAsync()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Socket.SendAsync()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "MemoryMappedFile.CreateFromFile()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "MemoryMappedViewStream",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "PipeStream",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "NamedPipeServerStream",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "NamedPipeClientStream",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "WaitHandle.WaitAll()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "WaitHandle.WaitAny()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AutoResetEvent",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ManualResetEvent",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "SemaphoreSlim",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ReaderWriterLockSlim",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Interlocked.Increment()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Interlocked.CompareExchange()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Volatile.Read()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Volatile.Write()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Thread.MemoryBarrier()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ComputeShader.FindKernel()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ComputeShader.SetTexture()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ComputeShader.SetBuffer()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.PropertyToID()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.SetGlobalMatrix()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Shader.GetGlobalFloat()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Material.EnableKeyword()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Material.DisableKeyword()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Material.SetPass()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Graphics.DrawProceduralNow()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Graphics.DrawMeshInstancedIndirect()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Graphics.ExecuteCommandBufferAsync()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ScriptableRenderContext.Cull()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "ScriptableRenderContext.DrawRenderers()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "SortingSettings.criteria",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "DrawingSettings.perObjectData",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "FilteringSettings.renderQueueRange",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "ILGenerator.Emit()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "OpCodes.Ldarg_0",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "OpCodes.Call",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "OpCodes.Ret",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "DynamicMethod",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "ModuleBuilder",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "TypeBuilder",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "MethodBuilder",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Expression.Lambda()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Expression.Compile()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Expression.Parameter()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Expression.Call()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "AppDomain.CurrentDomain.GetAssemblies()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Assembly.Load()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Assembly.GetType()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Type.GetGenericArguments()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Type.IsAssignableFrom()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "RuntimeHelpers.PrepareMethod()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "RuntimeHelpers.GetUninitializedObject()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "FormatterServices.GetUninitializedObject()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.AddressOf()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.AsRef<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.MemCpy()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.MemMove()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.MemClear()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.Malloc()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.Free()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.NativeLeakDetection.Mode",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.GetWorkStealingRange()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.Schedule()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility.CreateMarker()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility.BeginSample()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility.EndSample()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.GCHandle.Alloc()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.GCHandle.Target",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.GCHandleType.Pinned",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.Marshal.ReadInt32()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.Marshal.WriteInt32()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.Marshal.GetLastWin32Error()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.CallingConvention.Cdecl",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.CallingConvention.StdCall",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.CompilerServices.RuntimeFeature.IsDynamicCodeSupported",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.CompilerServices.RuntimeFeature.IsDynamicCodeCompiled",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Numerics.Vector.IsHardwareAccelerated",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Numerics.Vector.Count",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.Vector128.Create()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.Vector256.Create()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.X86.Sse.Add()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.X86.Avx2.GatherVector256()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.Arm.AdvSimd.Add()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GL.IssuePluginEvent()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GL.GetGPUProjectionMatrix()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Graphics.SetRenderTarget()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Graphics.SetRandomWriteTarget()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Graphics.ClearRandomWriteTargets()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "GraphicsBuffer.IndirectArguments.size",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "GraphicsBuffer.Structured",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Rendering.RenderPipeline.OnFrameEnd()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Rendering.RenderPipeline.Dispose()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Rendering.BatchRendererGroup.AddBatch()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Rendering.BatchRendererGroup.RemoveBatch()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Rendering.BatchRendererGroup.SetBatchBounds()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsMinMaxWriteRestrictionAttribute",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Collections.LowLevel.Unsafe.NativeDisableUnsafePtrRestrictionAttribute",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Jobs.IJobParallelForExtensions.Schedule()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.PatchBufferMinMax()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.CompilerServices.Unsafe.AsRef<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.CompilerServices.Unsafe.IsAddressLessThan<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.CompilerServices.RuntimeHelpers.AllocateUninitializedArray<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.X86.Bmi1.GetAlternateBase()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.X86.Fma.MultiplyAdd()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.Intrinsics.Arm.Sha1.FixedRotate()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.LibraryImportAttribute",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.NativeMarshallingAttribute",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.CollectionsMarshal.AsSpan<T>()",
+        "purple": "cyan"
+    },
+    {
+        "using UnityEngine;": "System.Threading.Volatile.Read()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Threading.Volatile.Write()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Threading.Interlocked.MemoryBarrier()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Threading.Interlocked.Read()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Threading.Tasks.Sources.IValueTaskSource",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Threading.Tasks.ValueTask.AsTask()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "XR.XRDisplaySubsystem",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "XR.XRInputSubsystem",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "XR.XRMeshSubsystem",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "XR.XRSettings.showDeviceView",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "XR.XRSettings.renderViewportScale",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "UnityEditor.PackageManager.Requests.ListRequest",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "UnityEditor.PackageManager.Requests.AddRequest",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "UnityEditor.PackageManager.PackageInfo",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "UnityEditor.Compilation.CompilationPipeline",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "UnityEditor.Compilation.Assembly.GetAssemblies()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.CompilerServices.LayoutKind.Explicit",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.CompilerServices.LayoutKind.Sequential",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.FieldOffsetAttribute",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.StructLayoutAttribute",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Runtime.InteropServices.ImmutableCollectionsMarshal",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Text.Unicode.Utf8.FromUtf8()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Text.Unicode.Utf8.ToUtf8()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Buffers.Text.Utf8Parser",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Buffers.Text.Utf8Formatter",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.IO.Pipelines.Pipe",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.IO.Pipelines.PipeReader",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.IO.Pipelines.PipeWriter",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Net.Sockets.Socket.SendAsync()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Net.Sockets.Socket.ReceiveAsync()",
+        "purple": "yellow"
+    },
+    {
+        "using UnityEngine;": "System.Net.WebSockets.ClientWebSocket",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Net.WebSockets.WebSocketReceiveResult",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Diagnostics.Tracing.EventSource",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Diagnostics.Tracing.EventLevel",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Diagnostics.Metrics.Counter<T>",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Diagnostics.Metrics.Meter",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Reflection.Emit.DynamicMethod",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Reflection.Metadata.MetadataReader",
+        "purple": "lightyellow"
+    },
+    {
+        "using UnityEngine;": "System.Reflection.PortableExecutable.PEReader",
+        "purple": "lightyellow"
+    }
+]
