@@ -20,6 +20,7 @@ public class MainWindow {
     private final Stage stage;
 
     public MenuBar menuBar;
+    public ToolBar toolBar;
     public TabPane editorTabs;
     public TextArea outputPane;
     public Label statusLabel;
@@ -46,6 +47,11 @@ public class MainWindow {
             stage.setTitle("frisk-IDE");
             stage.show();
 
+            // ★ ToolBar をセット
+            toolBar.getItems().addAll(
+                    ToolBarBuilder.create(this).getItems()
+            );
+
             // Explorer
             explorer = new Explorer(this);
             sideBar.getChildren().add(explorer);
@@ -54,8 +60,6 @@ public class MainWindow {
             File projectDir = new File("project");
             if (projectDir.exists()) {
                 explorer.loadProject(projectDir);
-
-                // プロジェクト判定
                 activeProject = ProjectDetector.detect(projectDir.toPath());
                 if (activeProject != null) {
                     log("Loaded project: " + activeProject.language());
