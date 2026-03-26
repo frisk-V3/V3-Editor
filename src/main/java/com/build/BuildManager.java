@@ -1,6 +1,8 @@
 package com.core;
 
-import com.build.*;
+import com.build.DotNetBuilder;
+import com.build.NodeBuilder;
+import com.build.PythonBuilder;
 import com.ui.OutputPane;
 
 public class BuildManager {
