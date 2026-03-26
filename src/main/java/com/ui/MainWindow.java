@@ -10,7 +10,6 @@ public class MainWindow {
 
     private Stage stage;
 
-    // FXML から読み込む UI パーツ
     public MenuBar menuBar;
     public TabPane editorTabs;
     public TextArea outputPane;
@@ -27,6 +26,9 @@ public class MainWindow {
             Scene scene = new Scene(root, 1400, 900);
             ThemeManager.apply(scene);
 
+            // ★ ICO ロゴをウィンドウアイコンに設定
+            stage.getIcons().add(IconLoader.loadLogo());
+
             stage.setScene(scene);
             stage.setTitle("frisk-IDE");
             stage.show();
@@ -42,5 +44,9 @@ public class MainWindow {
 
     public void setStatus(String text) {
         statusLabel.setText(text);
+    }
+
+    public Scene getScene() {
+        return stage.getScene();
     }
 }
