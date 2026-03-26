@@ -10,22 +10,16 @@ public class MenuBarBuilder {
 
         Menu file = new Menu("File");
 
-        Menu build = new Menu("Build");
+        Menu view = new Menu("View");
 
-        MenuItem buildProject = new MenuItem("Build Project");
-        buildProject.setOnAction(e -> {
-            var tab = window.getActiveEditorTab();
-            if (tab != null) window.buildManager().build(tab.project());
-        });
+        MenuItem dark = new MenuItem("Dark Theme");
+        dark.setOnAction(e -> ThemeManager.setTheme("dark", window.getScene()));
 
-        MenuItem runProject = new MenuItem("Run Project");
-        runProject.setOnAction(e -> {
-            var tab = window.getActiveEditorTab();
-            if (tab != null) window.buildManager().run(tab.project());
-        });
+        MenuItem light = new MenuItem("Light Theme");
+        light.setOnAction(e -> ThemeManager.setTheme("light", window.getScene()));
 
-        build.getItems().addAll(buildProject, runProject);
+        view.getItems().addAll(dark, light);
 
-        return new MenuBar(file, build);
+        return new MenuBar(file, view);
     }
 }
