@@ -7,18 +7,12 @@ public class ToolBarBuilder {
 
     public static ToolBar create(MainWindow window) {
 
-        Button build = new Button("Build");
-        build.setOnAction(e -> {
-            var project = window.getActiveProject();
-            if (project != null) window.buildManager().build(project);
-        });
+        Button buildBtn = new Button("Build");
+        buildBtn.setOnAction(e -> window.buildProject());
 
-        Button run = new Button("Run");
-        run.setOnAction(e -> {
-            var project = window.getActiveProject();
-            if (project != null) window.buildManager().run(project);
-        });
+        Button runBtn = new Button("Run");
+        runBtn.setOnAction(e -> window.runProject());
 
-        return new ToolBar(build, run);
+        return new ToolBar(buildBtn, runBtn);
     }
 }
